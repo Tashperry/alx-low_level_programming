@@ -1,15 +1,10 @@
-#include <studio.h>
-
+#include <stdio.h>
 /**
- * main - print the string in the put function
- *
- * Description: using the main function
- * this program prints "programming is like building a multilingual puzzle
- * Return: 0
+ * Description: main - Prints out a string to stdout.
+ * Return: 0 if success.
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
-
