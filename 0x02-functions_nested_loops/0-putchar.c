@@ -1,22 +1,22 @@
-#include <unistd.h>
 #include "main.h"
+
 /**
- * main - The entry point of C programs
- * @void: The function takes no parameters
+ * main - prints _putchar, followed by a new line
  *
- * Description: This program calls a function that prints "_putchar", followed by a new line. You are to use _putchar function only.
- * Return: 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char word[8] = "_putchar";
-	int letter_index = 0;
+	int i;
+	char c[] = "_putchar";
 
-	while (letter_index < 8)
+	for (i = 0; i <= 7; i++)
 	{
-		_putchar(word[letter_index]);
-		letter_index++;
+		_putchar(c[i]);
 	}
+
 	_putchar('\n');
+
 	return (0);
 }
