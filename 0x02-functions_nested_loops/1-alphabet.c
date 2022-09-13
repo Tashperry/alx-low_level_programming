@@ -1,22 +1,16 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * main - The entry point of C programs
- * @void: The function takes no parameters
+ * print_alphabet - function to print abc
  *
- * Description: This program does a lot of things
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	char word[8] = "_putchar";
-	int letter_index = 0;
+	char c;
 
-	while (letter_index < 8)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(word[letter_index]);
-		letter_index++;
+		_putchar(c);
 	}
-	_putchar('\n');
-	return (0);
+_putchar('\n');
 }
