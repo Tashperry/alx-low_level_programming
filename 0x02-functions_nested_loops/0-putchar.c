@@ -4,8 +4,7 @@
  * main - The entry point of C programs
  * @void: The function takes no parameters
  *
- * Description: This program calls a function that prints "_putchar",
- * followed by a new line. You are to use _putchar function only.
+ * Description: This program calls a function that prints "_putchar", followed by a new line. You are to use _putchar function only.
  * Return: 0
  */
 int main(void)
