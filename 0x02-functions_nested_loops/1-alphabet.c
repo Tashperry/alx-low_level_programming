@@ -1,17 +1,22 @@
-#include "holberton.h"
-
+#include <unistd.h>
+#include "main.h"
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase
- * 
- * Return: Always 0 (Success)
+ * main - The entry point of C programs
+ * @void: The function takes no parameters
+ *
+ * Description: This program does a lot of things
+ * Return: 0
  */
-void print_alphabet(void)
+int main(void)
 {
-	int n;
+	char word[8] = "_putchar";
+	int letter_index = 0;
 
-	for (n = 'a'; n <= 'z'; n++)
+	while (letter_index < 8)
 	{
-		_putchar(n);
+		_putchar(word[letter_index]);
+		letter_index++;
 	}
 	_putchar('\n');
+	return (0);
 }

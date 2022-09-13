@@ -1,19 +1,23 @@
-#include "holberton.h"
+#include <unistd.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main - The entry point of C programs
+ * @void: The function takes no parameters
  *
- * Return: Always 0 (Success)
+ * Description: This program calls a function that prints "_putchar",
+ * followed by a new line. You are to use _putchar function only.
+ * Return: 0
  */
 int main(void)
 {
-	char *sh = "Holberton";
+	char word[8] = "_putchar";
+	int letter_index = 0;
 
-	while (*sh)
+	while (letter_index < 8)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(word[letter_index]);
+		letter_index++;
 	}
 	_putchar('\n');
-
 	return (0);
 }
