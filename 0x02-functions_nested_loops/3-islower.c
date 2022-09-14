@@ -4,7 +4,7 @@
  *
  * @c: variable
  * 
- * Return: returns 1 or 0 depending on condition
+ * Return: returns 1 or 0 depending on the condition
  */
 int _islower(int c)
 {
